@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.oval {
+  background: linear-gradient(180deg, #000000 40%, #1376ff 100%);
+}
