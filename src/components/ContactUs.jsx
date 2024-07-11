@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, forwardRef } from "react";
 import emailjs from "@emailjs/browser";
 
 const ContactUs = forwardRef((props, ref) => {

@@ -1,6 +1,4 @@
-// src/ProjectSection.js
-
-import React from "react";
+import React, { forwardRef } from "react";
 
 const projects = [
   {
