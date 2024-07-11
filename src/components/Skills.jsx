@@ -1,4 +1,4 @@
-import React from "react";
+import React, { forwardRef } from "react";
 
 const mySkills = [
   {
@@ -6,11 +6,7 @@ const mySkills = [
     img: "/star.png",
   },
   {
-    skill: "Css",
-    img: "/star.png",
-  },
-  {
-    skill: "Javascript",
+    skill: "CSS",
     img: "/star.png",
   },
   {
@@ -18,24 +14,57 @@ const mySkills = [
     img: "/star.png",
   },
   {
-    skill: "Typescript",
+    skill: "JavaScript",
     img: "/star.png",
   },
   {
-    skill: "Reactjs",
+    skill: "TypeScript",
+    img: "/star.png",
+  },
+
+  {
+    skill: "React.js",
     img: "/star.png",
   },
   {
-    skill: "Responive Design",
+    skill: "Responsive Design",
     img: "/star.png",
   },
   {
-    skill: "MongoDb",
+    skill: "Redux",
+    img: "/star.png",
+  },
+  {
+    skill: "MongoDB",
+    img: "/star.png",
+  },
+  {
+    skill: "Node.js",
+    img: "/star.png",
+  },
+  {
+    skill: "Express.js",
+    img: "/star.png",
+  },
+  {
+    skill: "Websockets",
+    img: "/star.png",
+  },
+  {
+    skill: "Git",
+    img: "/star.png",
+  },
+  {
+    skill: "Figma",
+    img: "/star.png",
+  },
+  {
+    skill: "SQL",
     img: "/star.png",
   },
 ];
 
-const Skills = () => {
+const Skills = forwardRef((props, ref) => {
   return (
     <div className=" w-[100%] bg-[#110f1a] p-10 py-20 text-white flex justify-center items-center flex-col max-md:p-5 ">
       <h2 className=" text-[50px]">Skills</h2>
@@ -51,6 +80,6 @@ const Skills = () => {
       </div>
     </div>
   );
-};
+});
 
 export default Skills;

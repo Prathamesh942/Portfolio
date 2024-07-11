@@ -20,7 +20,7 @@ const projects = [
   // Add more projects as needed
 ];
 
-const ProjectSection = () => {
+const ProjectSection = forwardRef((props, ref) => {
   return (
     <div className="p-10 py-20 bg-[#110f1a] text-white flex flex-col justify-center items-center max-md:px-5">
       <h2 className=" text-[50px]">My Projects</h2>
@@ -62,6 +62,6 @@ const ProjectSection = () => {
       </div>
     </div>
   );
-};
+});
 
 export default ProjectSection;

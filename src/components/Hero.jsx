@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../App.css";
 
-const Hero = () => {
+const Hero = forwardRef((props, ref) => {
   return (
     <div className=" w-[100%] h-screen bg-[#110f1a] text-white flex justify-center items-center ">
       <div className=" flex flex-col gap-5 z-10 justify-center items-center ">
@@ -18,8 +18,8 @@ const Hero = () => {
           <span className=" italic gradient-text font-medium">design</span> and
           <pre>{"  <>Functionality</>"}</pre>
         </span>
-        <button className=" p-3 bg-white text-[#641AFF] font-bold rounded-md">
-          img RESUME
+        <button className=" p-3 bg-white text-[#641AFF] font-bold rounded-md flex justify-center items-center">
+          <img src="/download.png" className=" size-6" /> RESUME
         </button>
       </div>
       <div className=" absolute left-[50%] bottom-0 w-[50%] translate-x-[-50%] flex justify-end">
@@ -44,6 +44,6 @@ const Hero = () => {
       </div>
     </div>
   );
-};
+});
 
 export default Hero;
