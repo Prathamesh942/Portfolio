@@ -22,13 +22,13 @@ const projects = [
 
 const ProjectSection = () => {
   return (
-    <div className="p-10 py-20 bg-[#110f1a] text-white flex flex-col justify-center items-center">
+    <div className="p-10 py-20 bg-[#110f1a] text-white flex flex-col justify-center items-center max-md:px-5">
       <h2 className=" text-[50px]">My Projects</h2>
-      <div className=" flex flex-wrap justify-evenly items-center w-[100%] p-20">
+      <div className=" flex flex-wrap justify-evenly items-center w-[100%] p-20 max-md:p-5 gap-10">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="border rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 w-[40vw]"
+            className="border rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 w-[40vw] max-md:w-[100vw]"
           >
             <img
               src={project.imageUrl}

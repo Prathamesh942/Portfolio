@@ -29,7 +29,7 @@ const ContactUs = () => {
       <form
         ref={form}
         onSubmit={sendEmail}
-        className="max-w-md mx-auto bg-zinc-900 text-white p-10 rounded-lg shadow-lg w-[40vw]"
+        className="max-w-md mx-auto bg-zinc-900 text-white p-10 rounded-lg shadow-lg w-[40vw] max-md:w-[80vw]"
       >
         <div className="mb-4">
           <label htmlFor="user_name" className="block  font-bold mb-2">

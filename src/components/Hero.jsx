@@ -7,18 +7,18 @@ const Hero = () => {
       <div className=" flex flex-col gap-5 z-10 justify-center items-center ">
         <div className=" flex flex-col justify-center items-center">
           <p className=" herosm">Hii 👋, I'm</p>
-          <h2 className=" text-[90px] hero ">PRATHAMESH</h2>
+          <h2 className=" text-[90px] hero max-md:text-[50px]">PRATHAMESH</h2>
         </div>
         <div></div>
         <span className=" border rounded-2xl px-2 p-1 text-[20px]">
           Frontend Developer 🧑‍💻
         </span>
-        <span className=" text-[30px] ">
+        <span className=" text-[30px]  max-md:text-[20px] text-center">
           With a passion for both{" "}
           <span className=" italic gradient-text font-medium">design</span> and
           <pre>{"  <>Functionality</>"}</pre>
         </span>
-        <button className=" p-3 bg-white text-[#641AFF] font-bold">
+        <button className=" p-3 bg-white text-[#641AFF] font-bold rounded-md">
           img RESUME
         </button>
       </div>
@@ -29,12 +29,12 @@ const Hero = () => {
       <div className=" absolute flex w-[100%] left-0 justify-evenly">
         <div className=" w-[1px] h-screen bg-[#59595963]"></div>
         <div className=" w-[1px] h-screen bg-[#59595963]"></div>
-        <div className=" w-[1px] h-screen bg-[#59595963]"></div>
-        <div className=" w-[1px] h-screen bg-[#59595963]"></div>
-        <div className=" w-[1px] h-screen bg-[#59595963]"></div>
-        <div className=" w-[1px] h-screen bg-[#59595963]"></div>
-        <div className=" w-[1px] h-screen bg-[#59595963]"></div>
-        <div className=" w-[1px] h-screen bg-[#59595963]"></div>
+        <div className=" w-[1px] h-screen bg-[#59595963] max-md:hidden"></div>
+        <div className=" w-[1px] h-screen bg-[#59595963] max-md:hidden"></div>
+        <div className=" w-[1px] h-screen bg-[#59595963] max-md:hidden"></div>
+        <div className=" w-[1px] h-screen bg-[#704b4b63] max-md:hidden"></div>
+        <div className=" w-[1px] h-screen bg-[#59595963] max-md:hidden"></div>
+        <div className=" w-[1px] h-screen bg-[#59595963] max-md:hidden"></div>
       </div>
       <div className=" absolute w-[100%] h-screen flex flex-col left-0  justify-evenly">
         <div className=" w-[100%] h-[1px] bg-[#59595963]"></div>
