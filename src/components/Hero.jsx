@@ -18,7 +18,15 @@ const Hero = forwardRef((props, ref) => {
           <span className=" italic gradient-text font-medium">design</span> and
           <pre>{"  <>Functionality</>"}</pre>
         </span>
-        <button className=" p-3 bg-white text-[#641AFF] font-bold rounded-md flex justify-center items-center">
+        <button
+          className=" p-3 bg-white text-[#641AFF] font-bold rounded-md flex justify-center items-center"
+          onClick={() => {
+            const link = document.createElement("a");
+            link.href = "/Resume_prathamesh.pdf";
+            link.download = "Resume_prathamesh.pdf";
+            link.click();
+          }}
+        >
           <img src="/download.png" className=" size-6" /> RESUME
         </button>
       </div>
