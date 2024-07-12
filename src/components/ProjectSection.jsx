@@ -2,20 +2,29 @@ import React, { forwardRef } from "react";
 
 const projects = [
   {
-    title: "Twine",
-    description: "Social media application similar to threads",
-    imageUrl: "/twine.png",
-    liveDemo: "https://example.com/project1",
-    codeLink: "https://github.com/username/project1",
+    title: "Furnit",
+    description:
+      "A responsive e-commerce platform for a furniture company featuring product browsing, filtering, and a shopping cart.",
+    imageUrl: "/furnit.png",
+    liveDemo: "http://furnitstore.vercel.app",
+    codeLink: "http://github.com/Prathamesh942/Furnit",
   },
   {
-    title: "Project 2",
-    description: "Description of project 2",
-    imageUrl: "https://via.placeholder.com/150",
-    liveDemo: "https://example.com/project2",
-    codeLink: "https://github.com/username/project2",
+    title: "Twine",
+    description:
+      "A full-stack social media application inspired by Threads, offering real-time updates, user profiles, and post interactions.",
+    imageUrl: "/twine.png",
+    liveDemo: "https://threads-zeta-peach.vercel.app/",
+    codeLink: "https://github.com/Prathamesh942/Threads",
   },
-  // Add more projects as needed
+  {
+    title: "Ideas Tracker",
+    description:
+      "A web application to track and manage project ideas with features for idea submission, categorization, and progress tracking.",
+    imageUrl: "/ideas.png",
+    liveDemo: "http://ideas-tracker-9edn.vercel.app",
+    codeLink: "http://github.com/Prathamesh942/Ideas-tracker",
+  },
 ];
 
 const ProjectSection = forwardRef((props, ref) => {
